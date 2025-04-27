@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom';
+import Logo from '../assets/logo.png';
 
 function Navbar() {
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <Link to="/" className="text-2xl font-bold text-gray-800">
-          FinQuest
-        </Link>
+        <div className="flex items-center space-x-2">
+          <img src={Logo} alt="Logo" className="h-10 w-10 object-contain" />
+          <Link to="/" className="text-2xl font-bold text-gray-800">
+            FinQuest
+          </Link>
+        </div>
 
         <div className="flex space-x-6">
           <Link 

@@ -15,15 +15,6 @@ const AboutPage = () => {
           We believe that everyone should have access to resources that help them understand and take control of their finances, regardless of their background or experience. 
           Our platform is designed to be accessible, engaging, and educational — empowering you to take your financial literacy to the next level.
         </p>
-        
-        <div className="flex justify-center">
-          <a
-            href="/get-started"
-            className="bg-blue-600 text-white py-2 px-6 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300"
-          >
-            Get Started
-          </a>
-        </div>
       </div>
     </div>
   );
